@@ -1,0 +1,26 @@
+You are given a paragraph of facts/premises, followed by a statement. Perform logical reasoning with propositional logic on the paragraph to determine the truth value of the statement.
+
+Here is the list of argument forms:
+- Modus Ponens
+- Modus Tollens
+- Hypothetical Syllogism
+- Disjunctive Syllogism
+- Reductio ad absurdum
+- Constructive Dilemma
+- Disjunction Elimination
+
+You must answer with either one of the 3 options:
+- TRUE: When the premises in the paragraph lead to the statement
+- FALSE: When the premises in the paragraph directly contradict the statement
+- UNCERTAIN: When the premises in the paragraph neither support nor contradict the statement
+
+Do not use your prior knowledge; your answer must be solely determined by the information within the paragraph. Assume that all premises in the paragraph are true.
+
+Question: Is the statement true, false, or uncertain?
+-----
+
+Paragraph: {PARAGRAPH}
+
+Statement: {STATEMENT}
+
+Answer: 

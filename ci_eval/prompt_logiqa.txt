@@ -1,0 +1,60 @@
+Use the knowledge you currently have to answer as accurately as possible. If prior knowledge does not help answer the question, answer what you believe most likely is the answer.
+
+You must answer either one of the 4 options:
+- A
+- B
+- C
+- D
+
+There should be roughly an equal proportion of each option.
+
+Here are the questions:
+
+1. If the above statement is true, which of the followings must be true?
+
+(A) Mr. Niu didn't choose, but Mr. Zhou did.
+(B) Mr. Liu was chose, but Mr. Ma didn't.
+(C) Mr. Wang and Mr. Ma were chosen.
+(D) Neither Mr. Wang nor Mr. Niu was elected.
+
+Answer: B
+
+2. Which of the following inferences does not involve generalization?
+
+(A) According to the fact that several businessmen such as Zhang, Wang and Li have evaded taxes, someone comes to the conclusion that no businessman does not evade taxes.
+(B) A, B and C used to be very poor. After joining the MLM organization, they soon got rid of poverty and built a new house. Therefore, MLM can make people rich quickly.
+(C) The sum of the three internal angles of a right triangle, an acute triangle and an obtuse triangle is 180 degrees. Therefore, the sum of the internal angles of any triangle is 180 degrees.
+(D) Thomson and his son in the United States won the Nobel Prize in physics, Madame Curie and her daughter in France won the Nobel Prize in chemistry, OLE in Sweden won the Nobel Prize in chemistry, and his son won the Nobel Prize in physiology. It can be seen that the children of Nobel Prize winners will also win the Nobel Prize.
+
+Answer: True
+
+3. Which of the following is not an explaining causality?
+
+(A) Xiaoqiu poured such deep feelings into her song,how could Xiaoli not hear her?
+(B) The development of physics has enabled people to study celestial bodies using methods such as spectroscopy and photometry.
+(C) The reason why Xiao Wu did not achieve great achievements is because he is too proud.
+(D) A serious illness forced Lao Zhang to leave his beloved job early.
+
+Answer: A
+
+4. According to the above definition, which of the followings belongs to product recall?
+
+(A) A merchant made a promise that the product can be returned unconditionally if there is a problem.
+(B) A supermarket found that the cans sold had expired and deteriorated, and timely informed consumers to return or replace them.
+(C) Due to lax quality control, a batch of defective products from a factory flowed into the market, and the manufacturer told consumers to return them.
+(D) A toy factory returned compensation to some consumers who filed a lawsuit because some hazardous substances in toys exceeded the standard.
+
+Answer: C
+
+5. According to the context, which of the following statements is incorrect?
+
+(A) The peasant paintings owns the copyright of the work.
+(B) The peasant paintings does not belong to the culture of a country or nation.
+(C) Cultural heritage usually cannot belong to a single individual.
+(D) The nature of copyright may affect peasant paintings application for heritage.
+
+Answer: B
+
+10. {QUESTION}
+
+Answer: 

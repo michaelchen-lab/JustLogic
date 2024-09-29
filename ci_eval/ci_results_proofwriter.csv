@@ -1,0 +1,318 @@
+id,question,label,predicted
+AttNeg-OWA-D0-3799-Q2,Charlie is not kind.,False,Uncertain
+AttNeg-OWA-D0-63-Q3,Anne is not quiet.,Uncertain,Uncertain
+AttNoneg-OWA-D0-973-Q4,Harry is kind.,Uncertain,Uncertain
+AttNeg-OWA-D0-50-Q3,Dave is not young.,Uncertain,Uncertain
+AttNeg-OWA-D0-1792-Q1,Dave is blue.,True,Uncertain
+AttNeg-OWA-D0-1853-Q3,Harry is not big.,Uncertain,Uncertain
+AttNoneg-OWA-D0-5787-Q2,Anne is not kind.,False,Uncertain
+AttNeg-OWA-D0-7123-Q4,Fiona is kind.,Uncertain,Uncertain
+AttNeg-OWA-D0-4477-Q1,Dave is not furry.,True,Uncertain
+RelNoneg-OWA-D0-2977-Q2,The bear is not round.,False,Uncertain
+RelNoneg-OWA-D0-4220-Q2,The dog does not eat the mouse.,False,Uncertain
+AttNeg-OWA-D0-698-Q1,Erin is nice.,True,Uncertain
+AttNoneg-OWA-D0-6850-Q2,Harry is not cold.,False,Uncertain
+RelNoneg-OWA-D0-2054-Q2,The cow is not blue.,False,True
+AttNeg-OWA-D0-105-Q1,Gary is big.,True,Uncertain
+AttNoneg-OWA-D0-2436-Q2,Fiona is not green.,False,Uncertain
+RelNoneg-OWA-D0-5209-Q1,The cow needs the dog.,True,Uncertain
+RelNoneg-OWA-D0-5993-Q2,The bald eagle does not like the cow.,False,Uncertain
+AttNeg-OWA-D0-4035-Q3,Erin is not cold.,Uncertain,Uncertain
+RelNoneg-OWA-D0-3072-Q4,The rabbit eats the rabbit.,Uncertain,False
+AttNoneg-OWA-D0-2068-Q3,Erin is not cold.,Uncertain,Uncertain
+RelNeg-OWA-D0-824-Q2,The tiger does not need the mouse.,False,Uncertain
+AttNeg-OWA-D0-275-Q4,Anne is cold.,Uncertain,Uncertain
+AttNoneg-OWA-D0-464-Q1,Anne is round.,True,Uncertain
+AttNeg-OWA-D0-6432-Q3,Gary is not nice.,Uncertain,Uncertain
+AttNeg-OWA-D0-777-Q3,Erin is not green.,Uncertain,Uncertain
+AttNoneg-OWA-D0-4475-Q3,Gary is not furry.,Uncertain,Uncertain
+RelNeg-OWA-D0-5276-Q2,The rabbit is not big.,False,Uncertain
+RelNeg-OWA-D0-5977-Q3,The cat does not like the cat.,Uncertain,Uncertain
+AttNeg-OWA-D0-7024-Q1,Charlie is white.,True,Uncertain
+AttNeg-OWA-D0-402-Q2,Erin is not round.,False,Uncertain
+AttNoneg-OWA-D0-5522-Q4,Bob is white.,Uncertain,Uncertain
+RelNeg-OWA-D0-2029-Q4,The mouse is rough.,Uncertain,Uncertain
+AttNoneg-OWA-D0-2528-Q4,Erin is furry.,Uncertain,Uncertain
+RelNoneg-OWA-D0-2316-Q3,The bald eagle is not nice.,Uncertain,Uncertain
+AttNoneg-OWA-D0-3172-Q4,Harry is kind.,Uncertain,Uncertain
+RelNeg-OWA-D0-3010-Q1,The rabbit needs the cow.,True,Uncertain
+RelNeg-OWA-D0-1577-Q1,The dog needs the tiger.,True,Uncertain
+AttNeg-OWA-D0-6654-Q3,Anne is not blue.,Uncertain,True
+AttNoneg-OWA-D0-5699-Q3,Harry is not kind.,Uncertain,Uncertain
+AttNoneg-OWA-D0-6479-Q2,Charlie is not nice.,False,Uncertain
+RelNoneg-OWA-D0-1998-Q3,The bald eagle does not need the mouse.,Uncertain,Uncertain
+AttNeg-OWA-D0-7156-Q2,Charlie is green.,False,Uncertain
+AttNeg-OWA-D0-4456-Q1,Dave is nice.,True,Uncertain
+RelNeg-OWA-D0-5086-Q1,The lion is nice.,True,Uncertain
+RelNeg-OWA-D0-3210-Q2,The squirrel does not visit the lion.,False,Uncertain
+RelNoneg-OWA-D0-2931-Q3,The bear does not see the bear.,Uncertain,Uncertain
+RelNeg-OWA-D0-2591-Q2,The squirrel is not kind.,False,Uncertain
+AttNeg-OWA-D0-6307-Q1,Dave is big.,True,Uncertain
+RelNeg-OWA-D0-5738-Q3,The mouse does not see the tiger.,Uncertain,Uncertain
+AttNeg-OWA-D0-219-Q2,Bob is not cold.,False,Uncertain
+RelNoneg-OWA-D0-1777-Q1,The lion needs the bald eagle.,True,Uncertain
+RelNoneg-OWA-D0-5108-Q2,The rabbit is not nice.,False,Uncertain
+AttNeg-OWA-D0-3020-Q2,Fiona is kind.,False,Uncertain
+AttNeg-OWA-D0-6680-Q1,Anne is young.,True,Uncertain
+RelNeg-OWA-D0-3671-Q3,The mouse does not visit the mouse.,Uncertain,Uncertain
+RelNeg-OWA-D0-3903-Q4,The bald eagle eats the bald eagle.,Uncertain,False
+RelNeg-OWA-D0-2105-Q2,The cat is not round.,False,True
+RelNoneg-OWA-D0-72-Q2,The dog is not round.,False,True
+AttNoneg-OWA-D0-4498-Q4,Erin is kind.,Uncertain,Uncertain
+AttNeg-OWA-D0-918-Q2,Fiona is smart.,False,Uncertain
+RelNoneg-OWA-D0-4628-Q2,The lion is not kind.,False,Uncertain
+AttNoneg-OWA-D0-2145-Q2,Harry is not red.,False,Uncertain
+AttNoneg-OWA-D0-5914-Q2,Harry is not kind.,False,Uncertain
+AttNoneg-OWA-D0-6247-Q1,Anne is nice.,True,Uncertain
+RelNeg-OWA-D0-4121-Q3,The lion is not round.,Uncertain,True
+RelNoneg-OWA-D0-1035-Q3,The bear does not see the squirrel.,Uncertain,Uncertain
+RelNoneg-OWA-D0-5836-Q1,The squirrel eats the cow.,True,False
+AttNoneg-OWA-D0-1595-Q3,Bob is not cold.,Uncertain,Uncertain
+RelNeg-OWA-D0-1267-Q4,The mouse likes the mouse.,Uncertain,Uncertain
+AttNoneg-OWA-D0-782-Q1,Charlie is nice.,True,Uncertain
+RelNoneg-OWA-D0-242-Q1,The cat chases the bald eagle.,True,Uncertain
+AttNoneg-OWA-D0-3804-Q3,Fiona is not big.,Uncertain,Uncertain
+RelNoneg-OWA-D0-530-Q1,The squirrel is cold.,True,Uncertain
+RelNoneg-OWA-D0-5562-Q1,The dog sees the squirrel.,True,Uncertain
+AttNeg-OWA-D0-86-Q2,Fiona is big.,False,Uncertain
+RelNoneg-OWA-D0-4699-Q3,The squirrel does not like the mouse.,Uncertain,Uncertain
+RelNeg-OWA-D0-4337-Q4,The lion likes the cat.,Uncertain,Uncertain
+RelNoneg-OWA-D0-5389-Q2,The cow is not big.,False,Uncertain
+RelNeg-OWA-D0-1085-Q2,The dog is not nice.,False,Uncertain
+RelNoneg-OWA-D0-3216-Q1,The lion is green.,True,False
+RelNoneg-OWA-D0-2055-Q4,The bear eats the squirrel.,Uncertain,Uncertain
+RelNeg-OWA-D0-2217-Q2,The cat is round.,False,Uncertain
+AttNoneg-OWA-D0-5605-Q2,Charlie is not red.,False,Uncertain
+RelNeg-OWA-D0-1280-Q2,The dog does not chase the rabbit.,False,Uncertain
+AttNoneg-OWA-D0-4283-Q4,Dave is rough.,Uncertain,Uncertain
+AttNoneg-OWA-D0-4436-Q1,Harry is cold.,True,Uncertain
+AttNeg-OWA-D0-3816-Q1,Dave is not red.,True,Uncertain
+AttNoneg-OWA-D0-6923-Q2,Gary is not round.,False,Uncertain
+AttNoneg-OWA-D0-4690-Q3,Gary is not rough.,Uncertain,Uncertain
+RelNeg-OWA-D0-2607-Q2,The cat is not cold.,False,Uncertain
+RelNeg-OWA-D0-381-Q4,The bald eagle visits the bald eagle.,Uncertain,Uncertain
+AttNoneg-OWA-D0-3837-Q1,Dave is big.,True,Uncertain
+AttNoneg-OWA-D0-1315-Q2,Bob is not blue.,False,Uncertain
+RelNoneg-OWA-D0-2830-Q1,The cat is kind.,True,Uncertain
+AttNeg-OWA-D0-3598-Q3,Gary is not green.,Uncertain,Uncertain
+AttNeg-OWA-D0-7139-Q2,Fiona is not quiet.,False,Uncertain
+AttNeg-OWA-D0-5281-Q4,Bob is smart.,Uncertain,Uncertain
+AttNoneg-OWA-D0-3895-Q2,Fiona is not round.,False,Uncertain
+AttNoneg-OWA-D0-6457-Q2,Harry is not rough.,False,Uncertain
+AttNoneg-OWA-D0-255-Q2,Charlie is not smart.,False,Uncertain
+AttNeg-OWA-D0-3410-Q4,Harry is blue.,Uncertain,Uncertain
+RelNeg-OWA-D0-2176-Q1,The rabbit is cold.,True,Uncertain
+AttNoneg-OWA-D0-5416-Q1,Erin is green.,True,Uncertain
+RelNeg-OWA-D0-72-Q2,The cow is kind.,False,Uncertain
+RelNeg-OWA-D0-5793-Q4,The rabbit likes the bear.,Uncertain,Uncertain
+RelNeg-OWA-D0-290-Q2,The cow does not eat the rabbit.,False,True
+RelNoneg-OWA-D0-5433-Q2,The lion does not like the rabbit.,False,Uncertain
+AttNeg-OWA-D0-4901-Q2,Harry is not young.,False,Uncertain
+RelNoneg-OWA-D0-2350-Q2,The bald eagle does not like the lion.,False,Uncertain
+RelNoneg-OWA-D0-1436-Q2,The cow does not like the squirrel.,False,Uncertain
+AttNoneg-OWA-D0-3675-Q2,Dave is not round.,False,Uncertain
+RelNeg-OWA-D0-5240-Q1,The squirrel is young.,True,Uncertain
+RelNoneg-OWA-D0-4903-Q4,The bear needs the bear.,Uncertain,Uncertain
+AttNoneg-OWA-D0-6187-Q2,Erin is not green.,False,Uncertain
+AttNoneg-OWA-D0-7126-Q1,Dave is blue.,True,Uncertain
+AttNoneg-OWA-D0-5901-Q1,Dave is red.,True,Uncertain
+RelNoneg-OWA-D0-2987-Q2,The cat is not green.,False,True
+AttNeg-OWA-D0-1223-Q2,Charlie is not kind.,False,Uncertain
+AttNeg-OWA-D0-6869-Q1,Harry is not young.,True,Uncertain
+RelNeg-OWA-D0-1641-Q2,The bald eagle is not blue.,False,True
+AttNeg-OWA-D0-5544-Q3,Fiona is not blue.,Uncertain,Uncertain
+RelNoneg-OWA-D0-2273-Q3,The rabbit does not chase the rabbit.,Uncertain,True
+RelNoneg-OWA-D0-5403-Q4,The rabbit is nice.,Uncertain,Uncertain
+AttNoneg-OWA-D0-5802-Q4,Charlie is red.,Uncertain,Uncertain
+AttNeg-OWA-D0-1427-Q4,Erin is round.,Uncertain,Uncertain
+RelNoneg-OWA-D0-5126-Q4,The rabbit is young.,Uncertain,Uncertain
+RelNoneg-OWA-D0-2273-Q1,The rabbit likes the squirrel.,True,Uncertain
+AttNoneg-OWA-D0-3072-Q2,Anne is not red.,False,Uncertain
+RelNoneg-OWA-D0-5828-Q1,The cow visits the dog.,True,False
+AttNoneg-OWA-D0-3129-Q1,Fiona is green.,True,Uncertain
+RelNoneg-OWA-D0-4098-Q4,The tiger chases the tiger.,Uncertain,Uncertain
+AttNeg-OWA-D0-1927-Q1,Erin is not smart.,True,Uncertain
+RelNoneg-OWA-D0-3820-Q2,The bear does not see the bald eagle.,False,Uncertain
+RelNeg-OWA-D0-2504-Q1,The lion is round.,True,False
+RelNoneg-OWA-D0-5347-Q2,The rabbit does not eat the cat.,False,True
+RelNeg-OWA-D0-1093-Q2,The dog is big.,False,Uncertain
+RelNeg-OWA-D0-3760-Q4,The squirrel chases the lion.,Uncertain,Uncertain
+AttNeg-OWA-D0-2416-Q2,Charlie is not round.,False,Uncertain
+AttNeg-OWA-D0-641-Q1,Harry is cold.,True,Uncertain
+RelNoneg-OWA-D0-2189-Q3,The bald eagle does not like the bald eagle.,Uncertain,Uncertain
+AttNoneg-OWA-D0-5596-Q1,Gary is red.,True,Uncertain
+AttNoneg-OWA-D0-4193-Q1,Fiona is cold.,True,Uncertain
+RelNeg-OWA-D0-3402-Q1,The dog visits the squirrel.,True,Uncertain
+AttNoneg-OWA-D0-3769-Q4,Dave is furry.,Uncertain,Uncertain
+RelNoneg-OWA-D0-4948-Q3,The lion does not visit the bald eagle.,Uncertain,True
+RelNoneg-OWA-D0-2299-Q1,The dog is green.,True,False
+AttNoneg-OWA-D0-6406-Q1,Dave is white.,True,Uncertain
+AttNoneg-OWA-D0-5732-Q1,Charlie is furry.,True,Uncertain
+RelNeg-OWA-D0-2342-Q4,The cat likes the cat.,Uncertain,Uncertain
+RelNeg-OWA-D0-5259-Q4,The cow chases the lion.,Uncertain,Uncertain
+AttNeg-OWA-D0-4055-Q3,Harry is not young.,Uncertain,Uncertain
+AttNoneg-OWA-D0-3775-Q4,Gary is white.,Uncertain,Uncertain
+RelNoneg-OWA-D0-6192-Q4,The lion eats the lion.,Uncertain,False
+RelNeg-OWA-D0-521-Q4,The lion is cold.,Uncertain,Uncertain
+AttNeg-OWA-D0-1548-Q1,Anne is red.,True,Uncertain
+RelNeg-OWA-D0-1327-Q2,The squirrel does not eat the cat.,False,True
+AttNeg-OWA-D0-4236-Q3,Dave is not nice.,Uncertain,Uncertain
+RelNeg-OWA-D0-1813-Q2,The cow likes the mouse.,False,Uncertain
+RelNoneg-OWA-D0-5203-Q2,The squirrel is not cold.,False,Uncertain
+RelNeg-OWA-D0-4627-Q1,The mouse does not like the cat.,True,Uncertain
+AttNoneg-OWA-D0-4370-Q2,Gary is not big.,False,Uncertain
+RelNeg-OWA-D0-1744-Q1,The cat chases the mouse.,True,True
+AttNoneg-OWA-D0-3129-Q2,Gary is not smart.,False,Uncertain
+RelNoneg-OWA-D0-1416-Q1,The cow is green.,True,False
+RelNeg-OWA-D0-339-Q3,The lion does not chase the cow.,Uncertain,Uncertain
+AttNeg-OWA-D0-135-Q2,Fiona is not green.,False,Uncertain
+AttNeg-OWA-D0-5022-Q4,Anne is quiet.,Uncertain,Uncertain
+AttNoneg-OWA-D0-881-Q4,Harry is blue.,Uncertain,Uncertain
+RelNoneg-OWA-D0-3321-Q2,The dog does not chase the mouse.,False,Uncertain
+RelNeg-OWA-D0-4173-Q3,The lion does not like the lion.,Uncertain,Uncertain
+RelNeg-OWA-D0-260-Q3,The tiger does not chase the tiger.,Uncertain,Uncertain
+AttNeg-OWA-D0-5009-Q2,Erin is kind.,False,Uncertain
+RelNoneg-OWA-D0-2591-Q3,The bald eagle does not need the bald eagle.,Uncertain,Uncertain
+RelNeg-OWA-D0-1991-Q3,The rabbit does not need the lion.,Uncertain,Uncertain
+AttNeg-OWA-D0-6686-Q1,Dave is not green.,True,Uncertain
+AttNoneg-OWA-D0-5524-Q3,Bob is not big.,Uncertain,Uncertain
+AttNeg-OWA-D0-823-Q1,Charlie is not quiet.,True,Uncertain
+AttNeg-OWA-D0-486-Q1,Bob is young.,True,Uncertain
+RelNoneg-OWA-D0-1949-Q2,The dog does not chase the mouse.,False,Uncertain
+RelNeg-OWA-D0-2019-Q3,The rabbit does not chase the bear.,Uncertain,True
+RelNeg-OWA-D0-5646-Q4,The tiger eats the tiger.,Uncertain,Uncertain
+AttNoneg-OWA-D0-2036-Q2,Fiona is not round.,False,Uncertain
+RelNoneg-OWA-D0-3311-Q1,The mouse sees the lion.,True,Uncertain
+AttNeg-OWA-D0-3325-Q1,Anne is cold.,True,Uncertain
+RelNoneg-OWA-D0-2663-Q2,The mouse does not need the squirrel.,False,Uncertain
+RelNeg-OWA-D0-6179-Q1,The rabbit chases the dog.,True,Uncertain
+AttNeg-OWA-D0-21-Q2,Erin is not big.,False,Uncertain
+RelNeg-OWA-D0-758-Q3,The bear is not big.,Uncertain,Uncertain
+AttNoneg-OWA-D0-3607-Q1,Charlie is red.,True,Uncertain
+AttNeg-OWA-D0-4638-Q3,Dave is not furry.,Uncertain,Uncertain
+RelNeg-OWA-D0-4741-Q2,The squirrel is not round.,False,True
+AttNoneg-OWA-D0-6280-Q2,Dave is not red.,False,Uncertain
+AttNoneg-OWA-D0-4595-Q3,Charlie is not white.,Uncertain,Uncertain
+RelNeg-OWA-D0-1352-Q3,The bear does not chase the tiger.,Uncertain,Uncertain
+AttNoneg-OWA-D0-2131-Q1,Dave is smart.,True,Uncertain
+AttNeg-OWA-D0-6058-Q2,Harry is not quiet.,False,Uncertain
+AttNoneg-OWA-D0-4655-Q3,Charlie is not big.,Uncertain,Uncertain
+AttNeg-OWA-D0-4974-Q2,Dave is not round.,False,Uncertain
+RelNeg-OWA-D0-4709-Q1,The rabbit visits the mouse.,True,Uncertain
+AttNeg-OWA-D0-817-Q2,Dave is round.,False,Uncertain
+RelNeg-OWA-D0-5183-Q3,The tiger does not need the tiger.,Uncertain,Uncertain
+AttNoneg-OWA-D0-1390-Q1,Harry is white.,True,Uncertain
+RelNeg-OWA-D0-999-Q1,The tiger does not visit the cow.,True,True
+AttNoneg-OWA-D0-650-Q1,Gary is furry.,True,Uncertain
+AttNoneg-OWA-D0-4557-Q4,Harry is kind.,Uncertain,Uncertain
+RelNoneg-OWA-D0-1274-Q1,The cow is big.,True,Uncertain
+AttNoneg-OWA-D0-7207-Q4,Erin is red.,Uncertain,Uncertain
+AttNoneg-OWA-D0-2136-Q4,Fiona is big.,Uncertain,Uncertain
+RelNoneg-OWA-D0-4015-Q2,The lion does not visit the bald eagle.,False,True
+AttNoneg-OWA-D0-5699-Q2,Harry is not quiet.,False,Uncertain
+RelNeg-OWA-D0-4852-Q1,The tiger needs the squirrel.,True,Uncertain
+AttNeg-OWA-D0-5470-Q1,Gary is smart.,True,Uncertain
+AttNoneg-OWA-D0-4011-Q1,Gary is green.,True,Uncertain
+AttNoneg-OWA-D0-6594-Q2,Dave is not red.,False,Uncertain
+AttNoneg-OWA-D0-5386-Q1,Gary is quiet.,True,Uncertain
+AttNeg-OWA-D0-2398-Q2,Dave is not big.,False,Uncertain
+AttNoneg-OWA-D0-1024-Q4,Bob is smart.,Uncertain,Uncertain
+AttNoneg-OWA-D0-3932-Q1,Gary is kind.,True,Uncertain
+AttNeg-OWA-D0-3656-Q2,Fiona is not smart.,False,Uncertain
+AttNoneg-OWA-D0-1860-Q1,Erin is red.,True,Uncertain
+RelNoneg-OWA-D0-3199-Q4,The cat likes the lion.,Uncertain,Uncertain
+AttNeg-OWA-D0-2763-Q3,Bob is not nice.,Uncertain,Uncertain
+AttNoneg-OWA-D0-4400-Q1,Harry is blue.,True,Uncertain
+RelNoneg-OWA-D0-1532-Q3,The tiger does not eat the tiger.,Uncertain,True
+AttNoneg-OWA-D0-3999-Q2,Charlie is not furry.,False,Uncertain
+AttNeg-OWA-D0-3165-Q1,Anne is green.,True,Uncertain
+AttNeg-OWA-D0-3375-Q2,Fiona is not white.,False,Uncertain
+AttNeg-OWA-D0-4573-Q2,Charlie is not rough.,False,Uncertain
+RelNeg-OWA-D0-4948-Q1,The tiger eats the bald eagle.,True,Uncertain
+RelNoneg-OWA-D0-4008-Q4,The bear is young.,Uncertain,Uncertain
+AttNoneg-OWA-D0-4024-Q1,Charlie is smart.,True,Uncertain
+AttNoneg-OWA-D0-116-Q1,Erin is young.,True,Uncertain
+AttNoneg-OWA-D0-5815-Q4,Fiona is nice.,Uncertain,Uncertain
+RelNeg-OWA-D0-1298-Q4,The bald eagle visits the bald eagle.,Uncertain,Uncertain
+RelNoneg-OWA-D0-5210-Q1,The cat is cold.,True,Uncertain
+RelNeg-OWA-D0-458-Q4,The dog eats the dog.,Uncertain,False
+AttNeg-OWA-D0-1205-Q4,Erin is blue.,Uncertain,Uncertain
+RelNoneg-OWA-D0-5306-Q3,The squirrel does not see the squirrel.,Uncertain,Uncertain
+RelNeg-OWA-D0-1731-Q1,The dog does not see the squirrel.,True,Uncertain
+AttNoneg-OWA-D0-2300-Q2,Harry is not quiet.,False,Uncertain
+AttNoneg-OWA-D0-7267-Q3,Bob is not green.,Uncertain,Uncertain
+RelNeg-OWA-D0-5614-Q4,The cow is big.,Uncertain,Uncertain
+RelNeg-OWA-D0-1234-Q2,The dog is not rough.,False,Uncertain
+AttNoneg-OWA-D0-1478-Q4,Dave is young.,Uncertain,Uncertain
+RelNoneg-OWA-D0-38-Q3,The dog does not visit the bald eagle.,Uncertain,Uncertain
+AttNoneg-OWA-D0-4560-Q2,Anne is not kind.,False,Uncertain
+AttNoneg-OWA-D0-7097-Q1,Charlie is round.,True,Uncertain
+RelNoneg-OWA-D0-2355-Q4,The dog needs the dog.,Uncertain,Uncertain
+AttNoneg-OWA-D0-5762-Q3,Erin is not nice.,Uncertain,Uncertain
+RelNoneg-OWA-D0-2962-Q4,The bald eagle is nice.,Uncertain,Uncertain
+RelNoneg-OWA-D0-4450-Q3,The squirrel is not green.,Uncertain,True
+RelNeg-OWA-D0-2908-Q3,The lion is not green.,Uncertain,True
+RelNoneg-OWA-D0-4000-Q4,The cat is big.,Uncertain,Uncertain
+AttNeg-OWA-D0-6824-Q1,Anne is green.,True,Uncertain
+RelNeg-OWA-D0-3806-Q3,The tiger does not need the tiger.,Uncertain,Uncertain
+RelNeg-OWA-D0-5153-Q3,The tiger does not like the squirrel.,Uncertain,Uncertain
+RelNoneg-OWA-D0-3383-Q2,The tiger is not young.,False,Uncertain
+AttNoneg-OWA-D0-1967-Q2,Charlie is not cold.,False,Uncertain
+RelNoneg-OWA-D0-4333-Q2,The tiger is not nice.,False,Uncertain
+AttNoneg-OWA-D0-2375-Q3,Anne is not white.,Uncertain,Uncertain
+AttNoneg-OWA-D0-4363-Q4,Harry is young.,Uncertain,Uncertain
+RelNeg-OWA-D0-5501-Q1,The cow is not big.,True,Uncertain
+AttNeg-OWA-D0-463-Q3,Erin is not blue.,Uncertain,Uncertain
+RelNoneg-OWA-D0-3665-Q4,The tiger likes the tiger.,Uncertain,Uncertain
+AttNeg-OWA-D0-5558-Q3,Dave is not green.,Uncertain,Uncertain
+AttNeg-OWA-D0-1227-Q2,Harry is not nice.,False,Uncertain
+RelNeg-OWA-D0-2477-Q1,The rabbit likes the bald eagle.,True,Uncertain
+AttNoneg-OWA-D0-5751-Q1,Anne is smart.,True,Uncertain
+RelNoneg-OWA-D0-5766-Q3,The mouse does not need the mouse.,Uncertain,Uncertain
+AttNeg-OWA-D0-6023-Q4,Fiona is smart.,Uncertain,Uncertain
+RelNoneg-OWA-D0-3415-Q1,The bear is blue.,True,False
+AttNoneg-OWA-D0-3843-Q2,Charlie is not rough.,False,Uncertain
+RelNeg-OWA-D0-4937-Q4,The squirrel needs the squirrel.,Uncertain,Uncertain
+RelNeg-OWA-D0-1024-Q2,The squirrel eats the bear.,False,False
+AttNoneg-OWA-D0-1131-Q3,Gary is not nice.,Uncertain,Uncertain
+AttNoneg-OWA-D0-4031-Q2,Harry is not kind.,False,Uncertain
+AttNoneg-OWA-D0-1178-Q3,Dave is not young.,Uncertain,Uncertain
+RelNoneg-OWA-D0-4267-Q1,The mouse is round.,True,False
+RelNeg-OWA-D0-4998-Q1,The bear is young.,True,Uncertain
+AttNeg-OWA-D0-1444-Q4,Bob is green.,Uncertain,Uncertain
+RelNoneg-OWA-D0-2705-Q4,The rabbit visits the rabbit.,Uncertain,Uncertain
+RelNoneg-OWA-D0-4967-Q3,The squirrel is not rough.,Uncertain,True
+AttNeg-OWA-D0-742-Q4,Gary is young.,Uncertain,Uncertain
+RelNeg-OWA-D0-2323-Q3,The mouse does not need the mouse.,Uncertain,Uncertain
+AttNeg-OWA-D0-2972-Q1,Harry is round.,True,Uncertain
+RelNoneg-OWA-D0-929-Q2,The tiger is not green.,False,True
+AttNeg-OWA-D0-6058-Q3,Dave is not round.,Uncertain,Uncertain
+RelNeg-OWA-D0-1229-Q3,The mouse does not visit the bear.,Uncertain,Uncertain
+RelNeg-OWA-D0-4721-Q4,The lion sees the dog.,Uncertain,Uncertain
+AttNoneg-OWA-D0-6785-Q4,Dave is blue.,Uncertain,Uncertain
+RelNoneg-OWA-D0-980-Q1,The bald eagle is blue.,True,False
+RelNoneg-OWA-D0-5115-Q1,The squirrel chases the lion.,True,Uncertain
+AttNoneg-OWA-D0-630-Q1,Erin is kind.,True,Uncertain
+AttNeg-OWA-D0-1632-Q2,Anne is green.,False,Uncertain
+RelNeg-OWA-D0-6034-Q1,The lion is young.,True,Uncertain
+AttNoneg-OWA-D0-2083-Q4,Gary is quiet.,Uncertain,Uncertain
+RelNoneg-OWA-D0-4357-Q2,The rabbit is not blue.,False,Uncertain
+AttNoneg-OWA-D0-3925-Q2,Bob is not young.,False,Uncertain
+RelNoneg-OWA-D0-4806-Q4,The lion eats the cow.,Uncertain,True
+RelNeg-OWA-D0-3306-Q2,The dog does not see the tiger.,False,Uncertain
+AttNeg-OWA-D0-4045-Q1,Fiona is smart.,True,Uncertain
+AttNoneg-OWA-D0-4695-Q2,Gary is not blue.,False,Uncertain
+AttNeg-OWA-D0-826-Q2,Erin is big.,False,Uncertain
+RelNeg-OWA-D0-912-Q3,The rabbit is not young.,Uncertain,Uncertain
+AttNeg-OWA-D0-5300-Q2,Erin is not cold.,False,Uncertain
+RelNeg-OWA-D0-5843-Q1,The cow eats the mouse.,True,False
+RelNeg-OWA-D0-3894-Q1,The lion is red.,True,False
+RelNeg-OWA-D0-4614-Q3,The dog does not see the dog.,Uncertain,Uncertain
+RelNeg-OWA-D0-5280-Q3,The cow does not need the cow.,Uncertain,Uncertain
+RelNeg-OWA-D0-5007-Q3,The tiger is not kind.,Uncertain,Uncertain
+RelNeg-OWA-D0-3219-Q4,The tiger eats the tiger.,Uncertain,Uncertain
+AttNoneg-OWA-D0-2083-Q2,Gary is not red.,False,Uncertain
+RelNoneg-OWA-D0-2480-Q1,The dog chases the lion.,True,Uncertain
+RelNoneg-OWA-D0-4687-Q1,The bear is nice.,True,Uncertain
+AttNoneg-OWA-D0-1730-Q3,Bob is not nice.,Uncertain,Uncertain
+RelNoneg-OWA-D0-4211-Q1,The rabbit chases the squirrel.,True,Uncertain

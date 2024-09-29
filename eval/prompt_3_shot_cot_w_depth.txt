@@ -1,0 +1,69 @@
+You are given a paragraph of facts/premises, followed by a statement. Perform logical reasoning with propositional logic on the paragraph to determine the truth value of the statement.
+
+Here is the list of argument forms:
+- Modus Ponens
+- Modus Tollens
+- Hypothetical Syllogism
+- Disjunctive Syllogism
+- Reductio ad absurdum
+- Constructive Dilemma
+- Disjunction Elimination
+
+You must answer with either one of the 3 options:
+- TRUE: When the premises in the paragraph lead to the statement
+- FALSE: When the premises in the paragraph directly contradict the statement
+- UNCERTAIN: When the premises in the paragraph neither support nor contradict the statement
+
+Do not use your prior knowledge; your answer must be solely determined by the information within the paragraph. Assume that all premises in the paragraph are true.
+
+Question: Is the statement true, false, or uncertain?
+-----
+
+Paragraph: It is a fact that either pampas grass is a large bunchgrass from South America or gifted children are usually markedly different from their peers. It is not the case that pampas grass is a large bunchgrass from South America.
+
+Statement: It is rational to agree that gifted children are usually markedly different from their peers.
+
+Answer:
+
+Premise 1: Either pampas grass is a large bunchgrass from South America or gifted children are usually markedly different from their peers.
+Premise 2: It is not the case that pampas grass is a large bunchgrass from South America.
+Using disjunctive syllogism with premises 1 and 2, we conclude that gifted children are usually markedly different from their peers. 
+Therefore, the final answer is TRUE.
+-----
+
+Paragraph: We know that at least one of two things is true: an oriental bittersweet is a vine, or power is transient and no human being can be the repository of absolute power. Given that an oriental bittersweet is a vine, it can be inferred that many people use tobacco in one form or another in Canada, and it affects our lives in many ways. We know that either outdoor pet bites Most bites from pets are from dogs or cats or if power is transient and no human being can be the repository of absolute power, then many people use tobacco in one form or another in Canada, and it affects our lives in many ways. We know that the claim that outdoor pet bites Most bites from pets are from dogs or cats is false.
+
+Statement: Many people experience weight loss by increasing daily water intake only.
+
+Answer:
+Premise 1: We know that either outdoor pet bites Most bites from pets are from dogs or cats or if power is transient and no human being can be the repository of absolute power, then many people use tobacco in one form or another in Canada, and it affects our lives in many ways.
+Premise 2: We know that the claim that outdoor pet bites Most bites from pets are from dogs or cats is false.
+Using disjunctive syllogism with premises 1 and 2, we form the subconclusion that if power is transient and no human being can be the repository of absolute power, then many people use tobacco in one form or another in Canada, and it affects our lives in many ways.
+
+Premise 3: We know that at least one of two things is true: an oriental bittersweet is a vine, or power is transient and no human being can be the repository of absolute power.
+Premise 4: Given that an oriental bittersweet is a vine, it can be inferred that many people use tobacco in one form or another in Canada, and it affects our lives in many ways.
+Using disjunction elimination with premises 1 and 2 and the above subconclusion, we conclude that it is reasonable to believe that many people use tobacco in one form or another in Canada, and it affects our lives in many ways.
+This argument neither supports nor contradicts the statement many people experience weight loss by increasing daily water intake only.
+Therefore, the final answer is UNCERTAIN.
+
+-----
+
+Paragraph: We know that at least one of two things is true: some snakes are located on regions, or the statement 'plants range from dwarfs to mature specimens' can be considered false. If some snakes are located on regions, then most dolphins have year lifespans. The claim that most dolphins have year lifespans does not reflect reality.
+
+Statement: The statement that states plants range from dwarfs to mature specimens is right.
+
+Answer:
+Premise 1: If some snakes are located on regions, then most dolphins have year lifespans. 
+Premise 2: The claim that most dolphins have year lifespans does not reflect reality.
+Using modus tollens with premise 1 and 2, we form the subconclusion that it is not true that some snakes are located on regions.
+
+Premise 3: We know that at least one of two things is true: some snakes are located on regions, or the statement 'plants range from dwarfs to mature specimens' can be considered false.
+Using disjunctive syllogism with premise 3 and the above subconclusion, we conclude that the statement 'plants range from dwarfs to mature specimens' can be considered false.
+Therefore, the final answer is FALSE.
+-----
+
+Paragraph: {PARAGRAPH}
+
+Statement: {STATEMENT}
+
+Answer: 

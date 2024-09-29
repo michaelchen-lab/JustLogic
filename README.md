@@ -1,0 +1,28 @@
+
+# JustLogic: A benchmark for natural language deductive reasoning
+
+Contains all code and prompts to reproduce the dataset, evaluations, and statistics in the paper. 
+
+## Dataset Construction (Section 3)
+
+- Run `create_dataset/template.py`
+- Able to adjust range of reasoning depth (Default: 1-7) and no. of samples per depth (Default: 1000)
+- The full dataset can be found in the `dataset` folder.
+
+## Context-Independent Test (Section 5.1)
+
+- Run `ci_eval/openai_integration.py` to get GPT-4 predictions. Choose the dataset in line 128.
+- Run `ci_eval/eval.py` to find the accuracy rate.
+- All context-independence test results can be found in the `ci_eval` folder.
+
+## LLM Evaluation (Section 5.2)
+- All prompts and results files can be found in the `eval` folder.
+- To reproduce results, run `LLM_eval.ipynb`. GPT models use the OpenAI API, while Llama3 models can either be run locally or via the Replicate API.
+- `LLM_eval.ipynb` is written to run on Google Colab. However, only minor changes are required to run locally.
+- Run `eval/eval.py` to find the accuracy rate.
+
+## Statistics
+- The statistics on complexity in Section 3.4 can be reproduced in `statistics/complexity_stats.py`.
+- The graphs on error analysis in Section 5.3 can be reproduced in `statistics/error_analysis.py`.
+
+

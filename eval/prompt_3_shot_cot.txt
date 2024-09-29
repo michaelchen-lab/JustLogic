@@ -1,0 +1,64 @@
+You are given a paragraph of facts/premises, followed by a statement. Perform logical reasoning with propositional logic on the paragraph to determine the truth value of the statement.
+
+Here is the list of argument forms:
+- Modus Ponens
+- Modus Tollens
+- Hypothetical Syllogism
+- Disjunctive Syllogism
+- Reductio ad absurdum
+- Constructive Dilemma
+- Disjunction Elimination
+
+You must answer with either one of the 3 options:
+- TRUE: When the premises in the paragraph lead to the statement
+- FALSE: When the premises in the paragraph directly contradict the statement
+- UNCERTAIN: When the premises in the paragraph neither support nor contradict the statement
+
+Do not use your prior knowledge; your answer must be solely determined by the information within the paragraph. Assume that all premises in the paragraph are true.
+
+Question: Is the statement true, false, or uncertain?
+-----
+
+Paragraph: It is a fact that either pampas grass is a large bunchgrass from South America or gifted children are usually markedly different from their peers. It is not the case that pampas grass is a large bunchgrass from South America.
+
+Statement: It is rational to agree that gifted children are usually markedly different from their peers.
+
+Answer:
+
+Premise 1: Either pampas grass is a large bunchgrass from South America or gifted children are usually markedly different from their peers.
+Premise 2: It is not the case that pampas grass is a large bunchgrass from South America.
+Using disjunctive syllogism with premises 1 and 2, we conclude that gifted children are usually markedly different from their peers. 
+Therefore, the final answer is TRUE.
+-----
+
+Paragraph: Either one or both of these statements are true: some grills produce radiation, or stained glass is glas. One may reasonably assume that if some grills produce radiation, then sugar bushes located on shallow soils appear to have had the hardest time pumping out a crop. If stained glass is glas, then sugar bushes located on shallow soils appear to have had the hardest time pumping out a crop.
+
+Statement: The claim that sugar bushes located on shallow soils appear to have had the hardest time pumping out a crop does not reflect reality.
+
+Answer:
+Premise 1: Either some grills produce radiation or stained glass is glas.
+Premise 2: If some grills produce radiation, then sugar bushes located on shallow soils appear to have had the hardest time pumping out a crop.
+Premise 3: If stained glass is glas, then sugar bushes located on shallow soils appear to have had the hardest time pumping out a crop.
+Using disjunction elimination with premises 1, 2, and 3, we conclude that Many people rightly believe that sugar bushes located on shallow soils appear to have had the hardest time pumping out a crop.
+Therefore, the final answer is FALSE.
+
+-----
+
+Paragraph: Once we know eastern maples have superior taste, we also know that the statement that states subterranean rivers provide a natural perennial irrigation system is false. The idea that eastern maples have superior taste is true.
+
+Statement: It is a common misconception that subterranean rivers flow underground in caves or caverns.
+
+Answer:
+
+Premise 1: If eastern maples have superior taste, then subterranean rivers do not provide a natural perennial irrigation system.
+Premise 2: Eastern maples have superior taste.
+Using modus ponens with premise 1 and 2, we conclude that subterranean rivers do not provide a natural perennial irrigation system.
+This argument neither supports nor contradicts the statement that subterranean rivers do not flow underground in caves or caverns.
+Therefore, the final answer is UNCERTAIN.
+-----
+
+Paragraph: {PARAGRAPH}
+
+Statement: {STATEMENT}
+
+Answer: 

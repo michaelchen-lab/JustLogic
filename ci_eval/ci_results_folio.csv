@@ -1,0 +1,204 @@
+id,question,label,predicted
+1014,Bonnie performs in school talent shows often.,Uncertain,Uncertain
+1015,"If Bonnie is either both a young child or teenager who wishes to further her academic career and educational opportunities and chaperones high school dances or neither is a young child nor teenager who wishes to further her academic career and educational opportunities, then Bonnie is either a student who attends the school or is an inactive and disinterested member of the community.",True,Uncertain
+1016,"If Bonnie either chaperones high school dances or, if she does not, she performs in school talent shows often, then Bonnie is both a young child or teenager who wishes to further her academic career and educational opportunities and an inactive and disinterested member of the community.",False,Uncertain
+1208,James has lunch in the company.,Uncertain,Uncertain
+1209,James does not have lunch in the company.,Uncertain,Uncertain
+1210,"If James is either a manager or in other countries,  then James does not either has lunch at home or work remotely from home. If James either has lunch at home or works remotely from home, then he is neither a manager nor does he work in other countries. [contrapositive is more natural]",True,Uncertain
+563,There is an animal.,True,True
+564,No one gets the flu.,Uncertain,False
+565,Symptoms of Monkeypox include coughing.,Uncertain,True
+0,Tom is an Ocellated wild turkey.,True,False
+1,Tom is an Eastern wild turkey.,False,False
+2,Joey is a wild turkey.,Uncertain,Uncertain
+57,The Legend of Zelda is on the Top 10 list.,True,Uncertain
+58,FIFA 22 is made by a Japanese video game company.,Uncertain,False
+59,The Legend of Zelda is not on the Top 10 list.,False,Uncertain
+726,All squares are shapes.,True,True
+1361,Rockie is a turtle.,Uncertain,Uncertain
+1362,Rockie is not a turtle.,Uncertain,Uncertain
+1363,Rockie is a turtle or cute.,True,Uncertain
+1364,"If Rockie is not both a turtle and a squirrel, then Rockie is either cute or skittish.",True,Uncertain
+1365,"If Rockie is cute and calm, then Rockie is a skittish turtle.",False,Uncertain
+530,"Karen will share ""Stranger Things"" with Lisa.",True,Uncertain
+531,"""Black Mirror"" is popular.",False,True
+532,"Karen will share ""Black Mirror"" with Lisa.",Uncertain,Uncertain
+657,Beijing hosted both the 2008 Summer Olympics and the Winter Olympics.,True,True
+658,Beijing is located in southern China.,Uncertain,False
+659,Beijing is the second largest Chinese city.,Uncertain,Uncertain
+1301,Marvin is an alien.,Uncertain,Uncertain
+1302,Marvin is neither a human nor from Mars.,True,Uncertain
+1303,"If Marvin is not from Mars, then Marvin is a human.",False,Uncertain
+893,Djokovic is a Grand Slam champion.,Uncertain,True
+894,Djokovic lives in a tax haven.,True,True
+895,Djokovic does not live in a tax haven.,False,Uncertain
+289,Roderick Strong leads a professional wrestling stable.,True,True
+290,Roderick Strong leads the Creed Brothers.,Uncertain,Uncertain
+291,Imperium doesn't have a feud with a professional wrestling stable that includes Ivy Nile.,False,Uncertain
+621,Beethoven is a composer.,True,True
+622,Some orchestras premiered music pieces.,True,True
+623,Beethoven is not a conductor.,False,False
+927,A design by Max is a brutalist building.,Uncertain,Uncertain
+928,A design by Max is evocative and dreamy.,True,Uncertain
+929,A design by Max is either evocative or dreamy.,False,Uncertain
+1029,Coco Gauff is among the most active Grand-Slam players.,True,Uncertain
+1030,Coco Gauff has lost to Rafael Nadal.,Uncertain,Uncertain
+1031,Coco Gauff is not both a player who lost to Iga Świątek at Roland Garros 2022 and one of the most active players in major tennis.,False,Uncertain
+700,No pets are cats.,Uncertain,False
+456,James's favorite season is summer.,True,Uncertain
+457,Mia's favorite season is spring.,Uncertain,Uncertain
+904,1984 is printed text.,Uncertain,Uncertain
+905,1984 is a streaming service.,False,False
+906,1984 is not a streaming service.,True,True
+608,Basque is a Romance language.,False,False
+609,German is a Romance language.,Uncertain,False
+610,French is an Indo-European language.,True,True
+240,Robert Lewandowski is a soccer player.,True,True
+241,Robert Lewandowski plays for Bayern Munchen.,False,True
+242,Robert Lewandowski is a star.,Uncertain,Uncertain
+4,Butte and St Pierre are in the same state.,False,Uncertain
+5,St Pierre and Bismarck are in the same state.,Uncertain,False
+6,Montana is home to the city of Missoula.,True,True
+548,Mike has an F1 visa.,Uncertain,Uncertain
+549,Mike has a J1 visa.,Uncertain,Uncertain
+1271,Ted is a pet.,Uncertain,Uncertain
+1272,Ted is a pet and Brown Swiss cattle,False,False
+1273,"If Ted is a Brown Swiss cattle, then Ted is not a pet.",True,Uncertain
+663,A private Ivy League research university moved to New Haven.,True,True
+664,Yale University has the largest university endowment of any educational institution.,Uncertain,False
+665,Pierson College is a residential college at Yale.,True,True
+360,"Andrew Collins was the script editor for a series with the working title ""The Secret Dude Society"".",True,Uncertain
+361,No members of Pappy's have starred in a show piloting on BBC Two or BBC Three.,False,Uncertain
+819,KO is a stock.,Uncertain,True
+820,KO is a stock and a growth stock.,False,Uncertain
+821,"If KO is a growth stock or bought to earn profits from rapid price appreciation, then KO is neither a stock nor is its price volatile.",True,False
+253,Joe's license plate begins with the number 34.,True,Uncertain
+254,Tom's license plate is from Istanbul.,False,Uncertain
+979,Hannah needs to earn money to help pay for her college tuition.,Uncertain,Uncertain
+980,Hannah is at Mary's school and she is not a picky eater and spends a lot of her time eating and catching up with friends in the campus dining halls.,True,Uncertain
+981,"Hannah is at Mary's school and she either is not a picky eater or, if she is, then she spends a lot of her time eating and catching up with friends in the campus dining halls.",False,Uncertain
+805,Dried Thai chilies are products of Baked by Melissa.,False,False
+806,Dried Thai chilies are not products of Baked by Melissa.,True,True
+807,Dried Thai chilies are a mala hotpot.,Uncertain,False
+808,Dried Thai chilies are neither products of Baked by Melissa nor baked sweets.,True,True
+809,Dried Thai chilies are cupcakes and products of Baked by Melissa.,False,False
+754,"If the Hamden Plaza Subway store provides take-out service and receives many negative reviews, then its rating is greater than 4 and it does not provide take-out service.",False,False
+755,The Hamden Plaza Subway store provides take-out service or does not receive many negative reviews.,True,Uncertain
+756,The Hamden Plaza store does not provide take-out service.,Uncertain,Uncertain
+688,Sir Digby’s nemesis does not win.,True,Uncertain
+171,Walden contains knowledge.,True,True
+172,Harry is smarter than before.,True,Uncertain
+173,A smarter person has gained knowledge.,Uncertain,True
+546,Machine translation is a language generation task.,True,True
+547,Machine translation is a language understanding task.,False,True
+476,Tom will rent an apartment in The Olive Garden.,False,Uncertain
+477,Tom is allowed to move into an apartment in The Olive Garden with Fluffy.,Uncertain,Uncertain
+478,The security deposit at the Olive Garden is either $2000 or more.,True,Uncertain
+933,The Harvard Weekly Book club has legal obligations.,Uncertain,Uncertain
+934,The Harvard Weekly Book club has legal obligations and is a private company.,False,Uncertain
+935,"If the Harvard Weekly Book club is a private company, then it either has legal obligations or is created under law.",True,True
+1366,Harry is a queen bee.,Uncertain,False
+1367,Harry is an invertebrate or a queen bee.,True,Uncertain
+1368,"If Harry is either both a vertebrate and an animal with a backbone, or neither a vertebrate nor an animal with a backbone, then Harry is neither an invertebrate nor a queen bee.",False,True
+1011,Luke spends a lot of time hanging out and playing with his siblings.,Uncertain,Uncertain
+1012,Luke complains often about annoying siblings.,False,Uncertain
+1013,Luke is neither born in a multiple birth nor complains often about annoying siblings.,True,Uncertain
+560,ETS provides financial aid to Tom.,True,Uncertain
+561,It costs below US $300 to take the GRE test.,True,Uncertain
+562,No one taking the GRE test has financial aid provided to them by something.,False,Uncertain
+958,Peter is notably tidy.,Uncertain,Uncertain
+959,Peter is either a  clumsy foodie who goes out frequently to find new food restaurants to try or he is someone whose family prioritizes order and spotlessness.,False,True
+960,"Peter is either both a clumsy foodie who goes out frequently to find new food restaurants to try and issomeone whose family prioritizes order and spotlessness, or he neither is a clumsy foodie who goes out frequently to find new food restaurants to try nor does his family prioritize order and spotlessness.",True,True
+706,Some evergreens are not objects of worship.,Uncertain,True
+370,Juan de Onate visited a mountain range in New Mexico.,True,True
+371,Juan de Onate visited a mountain range in Texas.,Uncertain,True
+372,The Harding Pegmatite Mine is not located in a mountain range in New Mexico.,False,False
+527,Peter is shorter than a man in Michael's class.,False,Uncertain
+528,Windy is a great shooter.,True,Uncertain
+529,Peter can block Windy's shooting.,Uncertain,Uncertain
+439,Barutin Cove is named after all islands in Antarctica.,Uncertain,False
+440,There is at least one cove in Antarctica named after a place in Bulgaria.,True,Uncertain
+441,Barutin Cove is not located in Antarctica.,False,Uncertain
+739,Some affection is positive.,Uncertain,True
+786,John's car is a Tesla Model 3.,Uncertain,Uncertain
+787,John's car is a Solo EV.,False,Uncertain
+788,John's car is not a Solo EV.,True,Uncertain
+1348,Rock is a monkey.,Uncertain,Uncertain
+1349,Rock has wings.,True,False
+1350,Rock does not have wings.,False,True
+846,John has a larger family.,False,Uncertain
+847,John does not have a larger family.,True,Uncertain
+848,John is engaged.,Uncertain,Uncertain
+849,John neither has a larger family nor does he invite others to his wedding.,True,Uncertain
+74,Platypuses are mammals with no teeth.,True,True
+75,Platypuses are reptiles.,Uncertain,False
+76,Humans are mammals.,Uncertain,True
+578,Space sucks.,True,Uncertain
+579,Space is a vampire.,Uncertain,False
+580,"If something is a household appliance, it sucks.",False,False
+388,Supervised learning is used to train the state-of-the-art text summarization model.,True,True
+389,Unsupervised learning is used to train the state-of-the-art text summarization model.,False,Uncertain
+1327,"""Hachi: A dog's Tale"" is rated General Audience.",Uncertain,True
+1328,"""Hachi: A dog's Tale"" contains excessive erotic and violent content or is in the ""Frozen"" series or both.",False,False
+1329,"""Hachi: A dog's Tale"" either contains excessive erotic and violent content and is a film in the ""Frozen"" series, or it neither contains excessive erotic and violent content nor is a film in the ""Frozen"" series.",True,True
+133,Some Heck cattle are artificially selected.,True,True
+134,Aurochs are extinct.,Uncertain,True
+1410,Vladimir is a Russian federation official,Uncertain,Uncertain
+1411,Vladimir is not a Russian federation official,Uncertain,Uncertain
+1412,Ekaterina can participate in the 2024 United States presidential election or is a manager at Gazprom.,True,Uncertain
+1413,Ekaterina can participate in the 2024 United States presidential election or Vladimir is a manager at Gazprom.,True,Uncertain
+1414,It is not true that Ekaterina can register to vote in the United States and Vladimir can participate in the 2024 United States presidential election.,False,Uncertain
+243,Neapolitan Chronicles is an English book.,True,Uncertain
+244,Harry Potter was published by New Vessel Press.,Uncertain,False
+245,Palace of Flies was translated from Italian.,Uncertain,Uncertain
+964,The mixture contains carbon.,Uncertain,Uncertain
+965,The mixture is an alkane and contains carbon.,False,Uncertain
+966,"If the mixture contains only one element or contains carbon, then the mixture is neither a chemical compound nor an alkane.",True,Uncertain
+702,Some Greeks are mortal.,Uncertain,True
+1244,James has a part-time job offered by the university.,False,Uncertain
+1245,James does not have a part-time job offered by the university.,True,Uncertain
+1246,James either takes the database course or has a part-time job offered by the university.,True,Uncertain
+1247,James takes the database course.,Uncertain,Uncertain
+618,"If George likes music and has access to a program, he will compose.",True,Uncertain
+619,"If George will not compose, George can not compose.",Uncertain,False
+736,All birds swim.,False,False
+802,Breaking Bad is on Monday at 8 pm.,Uncertain,Uncertain
+803,Breaking Bad is a TV show in which roses are given out on Monday at 8 pm.,False,False
+804,"If roses are given out during Breaking Bad, then it is on Monday at 8 pm.",True,Uncertain
+323,Heinrich Schmidt was German or Russian or both.,True,Uncertain
+324,Some German politician was part of both the Prussian State Parliament and the Nazi Reichstag.,True,Uncertain
+325,No politicians are part of the Nazi Reichstag.,False,True
+1032,Colorectal cancer is a kind of severe cancer,Uncertain,True
+1033,"If colorectal cancer is a kind of bile duct cancer or a form of Cholangiocarcinoma, then colorectal cancer is a kind of bile duct cancer and a kind of mild flu.",True,False
+1034,"Colorectal cancer is a form of Cholangiocarcinoma and it is a kind of mild flu or a kind of bile duct cancer, or all of the above.",False,False
+941,Taylor eats salads regularly.,Uncertain,Uncertain
+942,Taylor visits the gym at least once a day.,False,Uncertain
+943,Taylor neither grew up in a health-conscious childhood home nor does she visit the gym at least once a day.,True,Uncertain
+147,The world championships is a sporting event.,Uncertain,True
+148,The last summer Olympic games were not in Tokyo.,False,Uncertain
+149,The United States won the most medals in the last summer Olympic games.,True,Uncertain
+703,Some humans are horses.,False,False
+442,Susan flies from LGA airport.,False,Uncertain
+443,John flies to LGA airport.,False,Uncertain
+1268,Tom is a grumpy person.,Uncertain,Uncertain
+1269,Tom is not both a grumpy person and mean to animals.,True,Uncertain
+1270,"If Tom is not both a grumpy person and mean to animals, then Tom is neither a grumpy person nor an animal lover.",False,Uncertain
+189,Dani Shapiro is a novel writer.,True,True
+190,Family Secrets is a novel.,False,True
+191,Dani Shapiro was born in Boston.,Uncertain,Uncertain
+1313,Yuri is an American national.,Uncertain,Uncertain
+1314,Yuri is not an American professional basketball player.,True,Uncertain
+1315,Yuri is an American professional basketball player.,False,Uncertain
+1316,"If Yuri does not leap straight into the air, then Yuri is an American professional basketball player.",False,Uncertain
+1317,"If Yuri is not an American professional basketball player, then Yuri is a professional basketball player.",False,Uncertain
+724,All events are sad.,False,False
+411,Steinhauer was not the winner of the 1992 du Maurier Classic.,False,Uncertain
+412,Descampe is in the six-way tie in the leaderboard of the 1992 du Maurier Classic.,Uncertain,Uncertain
+1324,KiKi is terricolous.,Uncertain,Uncertain
+1325,KiKi is a barking dog.,False,Uncertain
+1326,KiKi does not bark and he is not a dog.,True,Uncertain
+304,No one playing for Nautico is Brazilian.,False,Uncertain
+305,Ailton Silva does not play for a football club.,False,Uncertain
+306,Ailton was not loaned out to a football club.,False,Uncertain
+307,Ailton Silva played for Fluminense.,Uncertain,True
+308,Ailton Silva was loaned out to a football club.,Uncertain,True

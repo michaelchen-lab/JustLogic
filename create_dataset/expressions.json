@@ -1,0 +1,60 @@
+{
+    "Conditional": [
+        "If {x}, then {y}.",
+        "Provided that {x}, we know that {y}.",
+        "Should it be the case that {x}, it follows that {y}.",
+        "Whenever it is true that {x}, '{y}' is true.",
+        "Given that {x}, it can be inferred that {y}.",
+        "On the condition that {x}, it is definitely the case that {y}.",
+        "When {x} is true, it follows that {y}.",
+        "Assuming {x}, we know that {y}.",
+        "So long as {x}, '{y}' is true.",
+        "Once we know {x}, we also know that {y}.",
+        "One may reasonably assume that if {x}, then {y}."
+    ],
+    "Disjunction": [
+        "Either {x} or {y}.",
+        "At least one of two things is true: {x}, or {y}.",
+        "We know that either {x} or {y}.",
+        "We know that at least one of two things is true: {x}, or {y}.",
+        "Either one or both of these statements are true: {x}, or {y}.",
+        "It is a fact that either {x} or {y}.",
+        "There is good reason to believe that either {x} or {y}.",
+        "It is rational to believe that either {x} or {y}."
+    ],
+    "Statement": [
+        "{x}.",
+        "It is the case that {x}.",
+        "It is true that {x}.",
+        "The idea that {x} is true.",
+        "Many people rightly believe that {x}.",
+        "We can assume that {x}.",
+        "The claim that {x} is true.",
+        "The claim that {x} holds true.",
+        "Those that suggest {x} are right.",
+        "The statement that states {x} is right.",
+        "The statement '{x}' is true.",
+        "The statement '{x}' can be considered true.",
+        "It is a simple truth that {x}.",
+        "It is reasonable to believe that {x}.",
+        "It is fair to say that {x}.",
+        "It is rational to agree that {x}."
+    ],
+    "Negation": [
+        "The statement that states {x} is false.",
+        "It is not true that {x}.",
+        "The statement, {x}, does not hold.",
+        "The claim that {x} is false.",
+        "The statement '{x}' can be considered false.",
+        "The statement that '{x}' is incorrect.",
+        "It is not the case that {x}.",
+        "The notion that '{x}' is untrue.",
+        "We know that the claim that {x} is false.",
+        "It is a common misconception that {x}.",
+        "Some people mistakenly believe that {x}.",
+        "The claim that {x} has no merit.",
+        "The claim that {x} does not reflect reality.",
+        "The claim that {x} does not correspond with reality.",
+        "Those that suggest {x} are wrong."
+    ]
+}

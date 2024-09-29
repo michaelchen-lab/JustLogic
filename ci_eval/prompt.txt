@@ -1,0 +1,50 @@
+Use the knowledge you currently have to answer as accurately as possible.
+
+You have 3 answering options:
+- True
+- False
+- Uncertain
+
+There should be roughly an equal proportion of each option.
+
+Here are the questions:
+
+1. A Czech person wrote a book in 1946.
+
+Answer: True
+
+2. Tiffany T. Alston was suspended from the Maryland House of Delegates.
+
+Answer: True
+
+3. The cherries either contain some amount of vitamin C or are on a warning list.
+
+Answer: True
+
+4. Sea eel is a paper.
+
+Answer: False
+
+5. TikTok either has chat features or is a computer program.
+
+Answer: False
+
+6. The cherries are apples.
+
+Answer: False
+
+7. John started his current job in 1990.
+
+Answer: Uncertain
+
+8. Lily goes to cinemas every week.
+
+Answer: Uncertain
+
+9. Jim is an athlete.
+
+Answer: Uncertain
+
+10. {QUESTION}
+
+Answer: 

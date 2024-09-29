@@ -1,0 +1,45 @@
+Use the knowledge you currently have to answer as accurately as possible. If prior knowledge does not help answer the question, answer what you believe most likely is the answer.
+
+You must answer either one of the 16 options:
+- Grandson
+- Granddaughter
+- Sister
+- Mother
+- Son
+- Brother
+- Father
+- Mother-in-law
+- Grandmother
+- Daughter
+- Father-in-law
+- Grandfather
+- Nephew
+- Niece
+- Uncle
+- Aunt
+- Daughter-in-law
+- Son-in-law
+
+There should be roughly an equal proportion of each option.
+
+Here are the questions:
+
+1. How is Nicholas related to Ashley in the family?
+
+Answer: Son
+
+2. How is Lorraine related to Nancy in the family?
+
+Answer: Daughter
+
+3. How is Louise related to Dale in the family?
+
+Answer: Niece
+
+4. How is Douglas related to Nancy in the family?
+
+Answer: Nephew
+
+10. {QUESTION}
+
+Answer: 

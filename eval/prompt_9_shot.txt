@@ -1,0 +1,89 @@
+You are given a paragraph of facts/premises, followed by a statement. Perform logical reasoning with propositional logic on the paragraph to determine the truth value of the statement.
+
+Here is the list of argument forms:
+- Modus Ponens
+- Modus Tollens
+- Hypothetical Syllogism
+- Disjunctive Syllogism
+- Reductio ad absurdum
+- Constructive Dilemma
+- Disjunction Elimination
+
+You must answer with either one of the 3 options:
+- TRUE: When the premises in the paragraph lead to the statement
+- FALSE: When the premises in the paragraph directly contradict the statement
+- UNCERTAIN: When the premises in the paragraph neither support nor contradict the statement
+
+Do not use your prior knowledge; your answer must be solely determined by the information within the paragraph. Assume that all premises in the paragraph are true.
+
+Question: Is the statement true, false, or uncertain?
+-----
+
+Paragraph: It is a fact that either pampas grass is a large bunchgrass from South America or gifted children are usually markedly different from their peers. It is not the case that pampas grass is a large bunchgrass from South America.
+
+Statement: It is rational to agree that gifted children are usually markedly different from their peers.
+
+Answer: TRUE
+-----
+
+Paragraph: Either one or both of these statements are true: some grills produce radiation, or stained glass is glas. One may reasonably assume that if some grills produce radiation, then sugar bushes located on shallow soils appear to have had the hardest time pumping out a crop. If stained glass is glas, then sugar bushes located on shallow soils appear to have had the hardest time pumping out a crop.
+
+Statement: The claim that sugar bushes located on shallow soils appear to have had the hardest time pumping out a crop does not reflect reality.
+
+Answer: FALSE
+-----
+
+Paragraph: Once we know eastern maples have superior taste, we also know that the statement that states subterranean rivers provide a natural perennial irrigation system is false. The idea that eastern maples have superior taste is true.
+
+Statement: It is a common misconception that subterranean rivers flow underground in caves or caverns.
+
+Answer: UNCERTAIN
+-----
+
+Paragraph: Either gooseberries bear fruit or toads normally live on land but require ponds to reproduce. So long as gooseberries bear fruit, 'if we know that the claim that either some caterpillars make substances or enzymes make the digestion of food possible is false, then frogs sometimes have upper teeth whereas toads have no teeth at all' is true. One may reasonably assume that if toads normally live on land but require ponds to reproduce, then if we know that the claim that either some caterpillars make substances or enzymes make the digestion of food possible is false, then frogs sometimes have upper teeth whereas toads have no teeth at all. Either one or both of these statements are true: aircraft pilots fly commercial, private, corporate and government airplanes and helicopters, or husbands wear rings. Provided that aircraft pilots fly commercial, private, corporate and government airplanes and helicopters, we know that it is not true that frogs sometimes have upper teeth whereas toads have no teeth at all. Should it be the case that husbands wear rings, it follows that it is not true that frogs sometimes have upper teeth whereas toads have no teeth at all.
+
+Statement: We know that either some caterpillars make substances or enzymes make the digestion of food possible.
+
+Answer: TRUE
+-----
+
+Paragraph: So long as the notion that 'if either standard deviation is the square-root of the variance or rejection is the single greatest pain any human being experiences, then foresters are problem-solvers' is untrue, 'soy milk can cause gas in some' is true. The statement 'soy milk can cause gas in some' can be considered false. We know that either an old is a pas or chemicals act as fuel. Given that an old is a pas, it can be inferred that either standard deviation is the square-root of the variance or rejection is the single greatest pain any human being experiences. Provided that chemicals act as fuel, we know that either standard deviation is the square-root of the variance or rejection is the single greatest pain any human being experiences.
+
+Statement: The claim that foresters are problem-solvers does not reflect reality.
+
+Answer: FALSE
+-----
+
+Paragraph: Assuming those that suggest either gasoline taxes are a major component of the pump price of gasoline or the claim that twigs become dark green and oily looking when infected does not correspond with reality are wrong, we know that puppies to stretch legs. We know that the claim that puppies to stretch legs is false. Either some sports draw upon a much larger pool of athletes than others or the claim that gasoline taxes are a major component of the pump price of gasoline has no merit. The statement that states some sports draw upon a much larger pool of athletes than others is false.
+
+Statement: It is not true that twigs die back in late summer.
+
+Answer: UNCERTAIN
+-----
+
+Paragraph: Should it be the case that the claim that crystals are usually well-shaped octahedrons , and less commonly dodecahedrons  does not correspond with reality, it follows that killers have (part) personality. Either one or both of these statements are true: phenomenons are development, or the claim that most spiders use sticky silk has no merit. It is not true that phenomenons are development. When killers have (part) personality is true, it follows that if effectiveness depends on factors, then trees have limbs. One may reasonably assume that if those that suggest if if effectiveness depends on factors, then trees have limbs, then most spiders use sticky silk are wrong, then european trucks are mostly SUVs and vans. If those that suggest if if effectiveness depends on factors, then trees have limbs, then most spiders use sticky silk are wrong, then it is not the case that european trucks are mostly SUVs and vans.
+
+Statement: It is reasonable to believe that crystals are usually well-shaped octahedrons, and less commonly dodecahedrons.
+
+Answer: TRUE
+-----
+
+Paragraph: Either one or both of these statements are true: either mammals have complex, interactive development or tabby cats are located in cellars, or if either technology changes faster than a the speed of light or earthworms thrive in wood areas, then harsh chemicals can cause fabric deterioration and color fading. Either either most children present a normal profile by six years of age or squirrels are uncanny acorn connoisseurs or pressure sores are most common on the heels and on the hips. One may reasonably assume that if either most children present a normal profile by six years of age or squirrels are uncanny acorn connoisseurs, then either technology changes faster than a the speed of light or earthworms thrive in wood areas. There is good reason that believe that either a milo is a sorghu or moles can change over time and often respond to hormonal changes, such as during pregnancy. Once we know a milo is a sorghu, we also know that the statement that 'either mammals have complex, interactive development or tabby cats are located in cellars' is incorrect. So long as moles can change over time and often respond to hormonal changes, such as during pregnancy, 'the statement that 'either mammals have complex, interactive development or tabby cats are located in cellars' is incorrect' is true. On the condition that the notion that 'if pressure sores are most common on the heels and on the hips, then either technology changes faster than a the speed of light or earthworms thrive in wood areas' is untrue, it is definitely the case that vegetarians rely on food. Given that the notion that 'if pressure sores are most common on the heels and on the hips, then either technology changes faster than a the speed of light or earthworms thrive in wood areas' is untrue, it can be inferred that some people mistakenly believe that vegetarians rely on food.
+
+Statement: The claim that harsh chemicals can cause fabric deterioration and color fading has no merit.
+
+Answer: FALSE
+-----
+
+Paragraph: Either most species roost in moderate-sized groups, but some are solitary or relish is enthusias. Whenever it is true that the claim that if most species roost in moderate-sized groups, but some are solitary, then numerical calculations are limited to simple arithmetic is false, 'duchesses have (part) sections' is true. If we know that the claim that if relish is enthusias, then numerical calculations are limited to simple arithmetic is false, then it is a common misconception that phenolic is much cheaper than fiber glass board. When duchesses have (part) sections is true, it follows that either males are at higher risk for developing high blood pressure at an earlier age than females or protein is produced by the microorganisms from the nitrogen in the feed. The claim that either males are at higher risk for developing high blood pressure at an earlier age than females or protein is produced by the microorganisms from the nitrogen in the feed does not correspond with reality. Once we know volcanoes can put large amounts of dust particles high into the atmosphere, we also know that if we know that the claim that if relish is enthusias, then numerical calculations are limited to simple arithmetic is false, then phenolic is much cheaper than fiber glass board. The statement 'volcanoes can put large amounts of dust particles high into the atmosphere' can be considered true.
+
+Statement: Dogs like to be jumped at, patted roughly or scratched in an vigorous manner.
+
+Answer: UNCERTAIN
+-----
+
+Paragraph: {PARAGRAPH}
+
+Statement: {STATEMENT}
+
+Answer: 
