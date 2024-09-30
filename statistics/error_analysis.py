@@ -38,8 +38,24 @@ def get_num_label_and_predicted(df):
     df['num_predicted'] = num_predicted
     return df
 
+def get_acc_over_depth_calc(df): # alt method
+    acc_over_depth = {}
+    for i in range(1,8):
+        print(i)
+        depth_df = df[df.depth == i]
+        print(depth_df.num_label.value_counts(normalize=True))
+
+        label_acc = []
+        for label in range(1,4):
+            depth_label_df = depth_df[depth_df.num_label == label]
+            matching = depth_label_df.num_label == depth_label_df.num_predicted
+            label_acc.append(matching.value_counts(normalize=True)[True])
+        acc_over_depth[i] = sum(label_acc) / 3
+    
+    return acc_over_depth
+
 def get_acc_over_depth(filenames):
-    colors = ['#AF8D1E', '#1E40AF', '#AF1E89']
+    colors = ['#AF8D1E', '#1E40AF', '#AF1E89', '#ef4444', '#34d399']
     for name, filename in filenames.items():
         df = get_dataframe(filename)
         df = get_num_label_and_predicted(df)
@@ -48,6 +64,7 @@ def get_acc_over_depth(filenames):
         for depth in df.depth.unique():
             matching = df[df.depth == depth].num_label == df[df.depth == depth].num_predicted
             acc_over_depth[depth] = matching.value_counts(normalize=True)[True]
+        # acc_over_depth = get_acc_over_depth_calc(df)
         plt.plot(acc_over_depth.keys(), acc_over_depth.values(), label=name, color=colors[0])
         colors = colors[1:]
     # human = [0.777777778,0.555555556,0.777777778,0.666666667,0.777777778,0.722222222,0.833333333]
@@ -61,7 +78,7 @@ def get_acc_over_depth(filenames):
     plt.show()
 
 def get_acc_over_arg_form(filenames):
-    colors = ['#1EAF44', '#1E40AF', '#AF1E89']
+    colors = ['#1EAF44', '#1E40AF', '#AF1E89', '#ef4444', '#34d399']
     forms = ['Modus Ponens', 'Modus Tonens', 'Hypothetical Syllogism', 'Disjunctive Syllogism', 'Reductio Ad Absurdum', 'Constructive Dilemma', 'Disjunction Elimination']
     short_forms = ['MP', 'MT', 'HS', 'DS', 'RAA', 'CD', 'DE']
     all_acc_over_form = {'Form': short_forms}
@@ -98,9 +115,10 @@ def get_acc_over_arg_form(filenames):
 
 if __name__ == "__main__":
     all_colors = ['#1E40AF', '#AF1E89', '#AF8D1E', '#1EAF44']
-    get_acc_over_arg_form({
-        # 'OpenAI o1-preview': 'eval/3_shot_cot_w_depth_openai_o1_results.csv',
+    get_acc_over_depth({
+        'OpenAI o1-preview': 'eval/3_shot_cot_w_depth_openai_o1_results.csv',
+        # 'GPT-4o': 'eval/3_shot_cot_w_depth_gpt4o_results.csv',
+        # 'GPT-4': 'eval/3_shot_cot_w_depth_gpt4_results.csv',
         'Llama3-70B': 'eval/3_shot_cot_w_depth_llama70B_results.csv',
-        'GPT-4o': 'eval/3_shot_cot_w_depth_gpt4o_results.csv',
         'Llama3-8B': 'eval/3_shot_cot_w_depth_llama8B_results.csv'
     })

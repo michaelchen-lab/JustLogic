@@ -1,11 +1,6 @@
 import pandas as pd
 
-def eval(filename):
-    df = pd.read_csv(filename, encoding = "ISO-8859-1")
-    df.dropna(subset=['predicted'], inplace=True)
-    # df = df[df.depth == 1]
-
-    # true, false, uncertain
+def get_num_label_and_predicted(df):
     num_labels = []
     for l in df.label:
         if 'true' in l or 'True' in l or 'TRUE' in l or l == True:
@@ -25,12 +20,12 @@ def eval(filename):
         elif 'uncertain' in l or 'Uncertain' in l:
             num_predicted.append(3)
     df['num_predicted'] = num_predicted
+    return df
 
-    # df['label'] = df['label'].astype('str')
-    # df['label'] = df.label.str.lower()
-    # df['predicted'] = df['predicted'].astype('str') 
-    # df['label'] = df.label.str.lower()
-    # # df.replace({True: 'Correct', False: 'Incorrect'})
+def eval(filename):
+    df = pd.read_csv(filename, encoding = "ISO-8859-1")
+    df.dropna(subset=['predicted'], inplace=True)
+    df = get_num_label_and_predicted(df)
 
     print(df.iloc[0])
 
@@ -39,18 +34,19 @@ def eval(filename):
     print('sample size:', len(df))
     print('overall acc:', matching.value_counts(normalize=True)[True])
 
-    # for ans in pd.unique(df.label):
-    #     ans_df = df[df.label == ans]
-    #     matching = ans_df.label == ans_df.predicted
-    #     print(ans)
-    #     print('acc:', matching.value_counts(normalize=True))
-    
-    # print(df[df.label == 'true'])
-
-def majority_baseline(filename):
-    df = pd.read_csv(filename)
-    print(df.label.value_counts(normalize=True))
+# def forms_in_depth(filename):
+#     df = pd.read_csv(filename, encoding = "ISO-8859-1")
+#     df.dropna(subset=['predicted'], inplace=True)
+#     df = get_num_label_and_predicted(df)
+#     for i in range(1,8):
+#         depth_df = df[df.depth == i]
+#         forms = {'Modus Ponens': 0, 'Modus Tonens': 0, 'Hypothetical Syllogism': 0, 'Disjunctive Syllogism': 0, 'Reductio Ad Absurdum': 0, 'Constructive Dilemma': 0, 'Disjunction Elimination': 0}
+#         for arg in depth_df.arg:
+#             for form in forms.keys():
+#                 forms[form] += arg.count(form)
+#         print(i)
+#         print(forms)
 
 if __name__ == "__main__":
     # eval('context_independent_eval\ci_independent_results.csv')
-    eval('eval/3_shot_cot_w_depth_gpt4_results.csv')
+    eval('eval/3_shot_cot_w_depth_gpt4o_results.csv')
