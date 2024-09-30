@@ -3,10 +3,39 @@ import pandas as pd
 def eval(filename):
     df = pd.read_csv(filename, encoding = "ISO-8859-1")
     df.dropna(subset=['predicted'], inplace=True)
-    print(len(df))
-    # df.replace({True: 'Correct', False: 'Incorrect'})
+    # df = df[df.depth == 1]
 
-    matching = df.label == df.predicted
+    # true, false, uncertain
+    num_labels = []
+    for l in df.label:
+        if 'true' in l or 'True' in l or 'TRUE' in l or l == True:
+            num_labels.append(1)
+        elif 'false' in l or 'False' in l or 'FALSE' in l or l == False:
+            num_labels.append(2)
+        elif 'uncertain' in l or 'Uncertain' in l:
+            num_labels.append(3)
+    df['num_label'] = num_labels
+    print(len(df.num_label))
+    num_predicted = []
+    for l in df.predicted:
+        if 'true' in l or 'True' in l or 'TRUE' in l or l == True:
+            num_predicted.append(1)
+        elif 'false' in l or 'False' in l or 'FALSE' in l or l == False:
+            num_predicted.append(2)
+        elif 'uncertain' in l or 'Uncertain' in l:
+            num_predicted.append(3)
+    df['num_predicted'] = num_predicted
+
+    # df['label'] = df['label'].astype('str')
+    # df['label'] = df.label.str.lower()
+    # df['predicted'] = df['predicted'].astype('str') 
+    # df['label'] = df.label.str.lower()
+    # # df.replace({True: 'Correct', False: 'Incorrect'})
+
+    print(df.iloc[0])
+
+    matching = df.num_label == df.num_predicted
+    print(matching[:10])
     print('sample size:', len(df))
     print('overall acc:', matching.value_counts(normalize=True)[True])
 
