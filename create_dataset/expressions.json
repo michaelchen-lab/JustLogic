@@ -11,8 +11,8 @@
         "So long as {x}, '{y}' is true.",
         "Once we know {x}, we also know that {y}.",
         "One may reasonably assume that if {x}, then {y}.",
-        "Whenever x is true, the statement '{y}' is also true.",
-        "Whenever x is true, the following statement is also true: {y}"
+        "Whenever {x} is true, the statement '{y}' is also true.",
+        "Whenever {x} is true, the following statement is also true: {y}."
     ],
     "Disjunction": [
         "Either {x} or {y}.",
