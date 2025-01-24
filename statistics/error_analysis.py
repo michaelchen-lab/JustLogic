@@ -74,7 +74,7 @@ def get_acc_over_depth(filenames):
     plt.xlabel('Reasoning Depth')
     plt.ylabel('Accuracy')
     plt.legend()
-    plt.savefig('statistics/acc_over_depth.png', dpi=800)
+    plt.savefig('statistics/acc_over_depth_o1.png', dpi=800)
     plt.show()
 
 def get_acc_over_arg_form(filenames):
@@ -116,9 +116,10 @@ def get_acc_over_arg_form(filenames):
 if __name__ == "__main__":
     all_colors = ['#1E40AF', '#AF1E89', '#AF8D1E', '#1EAF44']
     get_acc_over_depth({
-        'OpenAI o1-preview': 'eval/3_shot_cot_w_depth_openai_o1_results.csv',
+        'OpenAI o1-preview': 'eval/3_shot_cot_w_depth_openai_o1_preview_results.csv',
+        'OpenAI o1': 'eval/3_shot_cot_w_depth_openai_o1_results.csv',
         # 'GPT-4o': 'eval/3_shot_cot_w_depth_gpt4o_results.csv',
         # 'GPT-4': 'eval/3_shot_cot_w_depth_gpt4_results.csv',
-        'Llama3-70B': 'eval/3_shot_cot_w_depth_llama70B_results.csv',
-        'Llama3-8B': 'eval/3_shot_cot_w_depth_llama8B_results.csv'
+        # 'Llama3-70B': 'eval/3_shot_cot_w_depth_llama70B_results.csv',
+        # 'Llama3-8B': 'eval/3_shot_cot_w_depth_llama8B_results.csv'
     })

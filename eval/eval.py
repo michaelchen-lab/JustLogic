@@ -100,11 +100,11 @@ def eval_by_conclusion_type(filenames, depth):
 
 
 if __name__ == "__main__":
-    # eval('context_independent_eval\ci_independent_results.csv')
-    eval_by_conclusion_type({
-        'OpenAI o1-preview': 'eval/3_shot_cot_w_depth_openai_o1_results.csv',
-        'GPT-4o': 'eval/3_shot_cot_w_depth_gpt4o_results.csv',
-        'GPT-4': 'eval/3_shot_cot_w_depth_gpt4_results.csv',
-        'Llama3-70B': 'eval/3_shot_cot_w_depth_llama70B_results.csv',
-        'Llama3-8B': 'eval/3_shot_cot_w_depth_llama8B_results.csv'
-    }, 1)
+    eval('eval/3_shot_cot_w_depth_openai_o1_results.csv')
+    # eval_by_conclusion_type({
+    #     'OpenAI o1-preview': 'eval/3_shot_cot_w_depth_openai_o1_results.csv',
+    #     'GPT-4o': 'eval/3_shot_cot_w_depth_gpt4o_results.csv',
+    #     'GPT-4': 'eval/3_shot_cot_w_depth_gpt4_results.csv',
+    #     'Llama3-70B': 'eval/3_shot_cot_w_depth_llama70B_results.csv',
+    #     'Llama3-8B': 'eval/3_shot_cot_w_depth_llama8B_results.csv'
+    # }, 1)
