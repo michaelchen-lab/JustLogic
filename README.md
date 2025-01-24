@@ -1,5 +1,5 @@
 
-# JustLogic: A benchmark for natural language deductive reasoning
+# JustLogic: A Comprehensive Benchmark for Evaluating Deductive Reasoning in Large Language Models
 
 Contains all code and prompts to reproduce the dataset, evaluations, and statistics in the paper. 
 
